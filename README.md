@@ -1,0 +1,2 @@
+# gradio_fullstack_toybox
+gradioを使ってフルスタックアプリを気軽に作る
