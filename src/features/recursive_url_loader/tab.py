@@ -32,7 +32,13 @@ def recursive_url_loader_tab(gr):
         # UIの定義
         with gr.Row():
             gr.Markdown(
-                "[Recursive URL Loader](https://python.langchain.com/docs/integrations/document_loaders/recursive_url/) によりURLを取得しcsvに保存"
+                """> ref. [Recursive URL Loader](https://python.langchain.com/docs/integrations/document_loaders/recursive_url/)\n
+ページから再帰的にデータを取得
+```txt
+source,title,description,content,language,docs_sync_at
+https://docs.python.org/3.11/,3.11.8 Documentation,,Welcome to Python 3.11.8 documentation.,en,
+```
+                """
             )
         with gr.Row():
             with gr.Column():
